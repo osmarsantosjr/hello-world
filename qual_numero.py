@@ -9,6 +9,6 @@ while (cont == True):
         else:
             guess = int (input("Muito baixo, tente novamente: "))
     print ("Parabéns, você acertou!")
-    choice = (input("Digite S + ENTER se quiser jogar novamente: "))
+    choice = (input("Digite S e pressione ENTER para continuar ou apenas ENTER para encerrar!"))
     if choice != "S" and choice != "s":
         cont = False
